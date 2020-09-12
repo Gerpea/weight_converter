@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+body {
+  background: #2b2d42;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50vw;
+
+  &--full-page {
+    height: 100vh;
+  }
+
+  &--vertical-center {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.form {
+  width: 100%;
+  background: #edf2f4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10 0 #000;
+  font-family: 'Grandstander', cursive;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__label {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+  }
+
+  &__input {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+}
